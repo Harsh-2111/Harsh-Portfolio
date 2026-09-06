@@ -217,7 +217,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const subject = encodeURIComponent(`Portfolio enquiry from ${name}`);
     const body = encodeURIComponent(`${message}\n\n— ${name} (${email})`);
-    window.location.href = `mailto:hsutariya307@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:harshsavalia75@gmail.com?subject=${subject}&body=${body}`;
 
     formNote.textContent = "Opening your email client...";
     setTimeout(() => { formNote.textContent = ""; }, 4000);
